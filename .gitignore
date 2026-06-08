@@ -32,9 +32,21 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
+
+# sanity studio/schema (kept local only)
+sanity.config.ts
+sanity.cli.ts
+.sanity/
+src/sanity/schemaTypes/
+src/app/studio/
+scripts/seed-sanity.mjs
+
+# local dev logs
+*.log
 
 # typescript
 *.tsbuildinfo
