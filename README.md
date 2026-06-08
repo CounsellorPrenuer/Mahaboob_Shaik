@@ -17,9 +17,12 @@ The site is published to:
 
 https://counsellorprenuer.github.io/Mahaboob_Shaik/
 
-Pushes to `main` run the GitHub Actions workflow, which builds a static export and deploys it to GitHub Pages.
+Pushes to `main` build the site and publish it to the `gh-pages` branch.
 
-In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+In **Settings → Pages → Build and deployment**, set:
+
+- **Source:** Deploy from a branch
+- **Branch:** `gh-pages` / `/ (root)`
 
 ## Environment variables
 
